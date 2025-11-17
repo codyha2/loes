@@ -1,0 +1,241 @@
+{
+  "bloomVerbs": {
+    "Remember": ["Nhớ", "Liệt kê", "Định nghĩa", "Mô tả", "Nêu", "Kể", "Gọi tên"],
+    "Understand": ["Hiểu", "Giải thích", "So sánh", "Phân loại", "Tóm tắt", "Diễn đạt", "Minh họa"],
+    "Apply": ["Áp dụng", "Sử dụng", "Thực hiện", "Tính toán", "Vận dụng", "Xây dựng", "Thiết kế"],
+    "Analyze": ["Phân tích", "Phân biệt", "Tổ chức", "Liên kết", "So sánh", "Đối chiếu", "Xác định"],
+    "Evaluate": ["Đánh giá", "Phê bình", "Bảo vệ", "Phán đoán", "Chọn lựa", "Kiểm tra", "Xác nhận"],
+    "Create": ["Sáng tạo", "Thiết kế", "Xây dựng", "Sản xuất", "Tạo ra", "Phát triển", "Xây dựng"]
+  },
+  "templates": {
+    "Remember": {
+      "Nhớ": "Nhớ được [mô tả]",
+      "Liệt kê": "Liệt kê được [mô tả]",
+      "Định nghĩa": "Định nghĩa được [mô tả]",
+      "Mô tả": "Mô tả được [mô tả]",
+      "Nêu": "Nêu được [mô tả]",
+      "Kể": "Kể được [mô tả]",
+      "Gọi tên": "Gọi tên được [mô tả]"
+    },
+    "Understand": {
+      "Hiểu": "Hiểu được [mô tả]",
+      "Giải thích": "Giải thích được [mô tả]",
+      "So sánh": "So sánh được [mô tả]",
+      "Phân loại": "Phân loại được [mô tả]",
+      "Tóm tắt": "Tóm tắt được [mô tả]",
+      "Diễn đạt": "Diễn đạt được [mô tả]",
+      "Minh họa": "Minh họa được [mô tả]"
+    },
+    "Apply": {
+      "Áp dụng": "Áp dụng được [mô tả]",
+      "Sử dụng": "Sử dụng được [mô tả]",
+      "Thực hiện": "Thực hiện được [mô tả]",
+      "Tính toán": "Tính toán được [mô tả]",
+      "Vận dụng": "Vận dụng được [mô tả]",
+      "Xây dựng": "Xây dựng được [mô tả]",
+      "Thiết kế": "Thiết kế được [mô tả]"
+    },
+    "Analyze": {
+      "Phân tích": "Phân tích được [mô tả]",
+      "Phân biệt": "Phân biệt được [mô tả]",
+      "Tổ chức": "Tổ chức được [mô tả]",
+      "Liên kết": "Liên kết được [mô tả]",
+      "So sánh": "So sánh được [mô tả]",
+      "Đối chiếu": "Đối chiếu được [mô tả]",
+      "Xác định": "Xác định được [mô tả]"
+    },
+    "Evaluate": {
+      "Đánh giá": "Đánh giá được [mô tả]",
+      "Phê bình": "Phê bình được [mô tả]",
+      "Bảo vệ": "Bảo vệ được [mô tả]",
+      "Phán đoán": "Phán đoán được [mô tả]",
+      "Chọn lựa": "Chọn lựa được [mô tả]",
+      "Kiểm tra": "Kiểm tra được [mô tả]",
+      "Xác nhận": "Xác nhận được [mô tả]"
+    },
+    "Create": {
+      "Sáng tạo": "Sáng tạo được [mô tả]",
+      "Thiết kế": "Thiết kế được [mô tả]",
+      "Xây dựng": "Xây dựng được [mô tả]",
+      "Sản xuất": "Sản xuất được [mô tả]",
+      "Tạo ra": "Tạo ra được [mô tả]",
+      "Phát triển": "Phát triển được [mô tả]"
+    }
+  },
+  "sampleCLOs": {
+    "Tourism": {
+      "Remember": {
+        "Nhớ": [
+          "các khái niệm cơ bản về du lịch",
+          "các loại hình du lịch phổ biến",
+          "các điểm đến du lịch nổi tiếng"
+        ],
+        "Liệt kê": [
+          "các thành phần của sản phẩm du lịch",
+          "các yếu tố ảnh hưởng đến quyết định du lịch"
+        ]
+      },
+      "Understand": {
+        "Hiểu": [
+          "bản chất và đặc điểm của ngành du lịch",
+          "mối quan hệ giữa các thành phần trong hệ thống du lịch"
+        ],
+        "Giải thích": [
+          "tác động của du lịch đến kinh tế và môi trường",
+          "vai trò của marketing trong phát triển du lịch"
+        ]
+      },
+      "Apply": {
+        "Áp dụng": [
+          "kiến thức marketing vào thực tiễn du lịch",
+          "các công cụ marketing cho điểm đến"
+        ],
+        "Sử dụng": [
+          "các kỹ thuật phân tích thị trường du lịch",
+          "công nghệ thông tin trong quản lý du lịch"
+        ]
+      },
+      "Analyze": {
+        "Phân tích": [
+          "phân khúc thị trường du lịch",
+          "hành vi khách hàng trong du lịch",
+          "chuỗi giá trị trong ngành du lịch"
+        ],
+        "So sánh": [
+          "các mô hình phát triển du lịch",
+          "chiến lược marketing của các điểm đến"
+        ]
+      },
+      "Evaluate": {
+        "Đánh giá": [
+          "hiệu quả của chiến dịch marketing du lịch",
+          "tác động môi trường của hoạt động du lịch"
+        ]
+      },
+      "Create": {
+        "Thiết kế": [
+          "chiến dịch marketing cho điểm đến",
+          "sản phẩm du lịch mới",
+          "tour du lịch chuyên đề"
+        ],
+        "Xây dựng": [
+          "kế hoạch phát triển du lịch bền vững",
+          "chiến lược marketing cho điểm đến"
+        ]
+      }
+    },
+    "Marketing": {
+      "Remember": {
+        "Nhớ": [
+          "các khái niệm cơ bản về marketing",
+          "4P trong marketing mix"
+        ]
+      },
+      "Understand": {
+        "Giải thích": [
+          "vai trò của marketing trong doanh nghiệp",
+          "quy trình marketing"
+        ]
+      },
+      "Analyze": {
+        "Phân tích": [
+          "phân khúc thị trường",
+          "hành vi người tiêu dùng",
+          "đối thủ cạnh tranh"
+        ]
+      },
+      "Create": {
+        "Thiết kế": [
+          "chiến dịch marketing",
+          "kế hoạch marketing"
+        ]
+      }
+    },
+    "Hướng dẫn": {
+      "Remember": {
+        "Nhớ": [
+          "các điểm tham quan chính",
+          "lịch sử và văn hóa địa phương"
+        ]
+      },
+      "Apply": {
+        "Sử dụng": [
+          "kỹ năng giao tiếp với khách du lịch",
+          "công nghệ hỗ trợ hướng dẫn"
+        ]
+      },
+      "Create": {
+        "Thiết kế": [
+          "tour hướng dẫn chuyên đề",
+          "chương trình hướng dẫn phù hợp với từng nhóm khách"
+        ]
+      }
+    }
+  },
+  "assessmentSuggestions": {
+    "Remember": {
+      "types": ["Thi trắc nghiệm", "Thi viết ngắn"],
+      "description": "Đánh giá khả năng nhớ và nhận biết thông tin cơ bản"
+    },
+    "Understand": {
+      "types": ["Thi viết", "Thuyết trình", "Bài tập nhóm"],
+      "description": "Đánh giá khả năng hiểu và giải thích khái niệm"
+    },
+    "Apply": {
+      "types": ["Bài tập thực hành", "Dự án nhỏ", "Case study"],
+      "description": "Đánh giá khả năng áp dụng kiến thức vào thực tế"
+    },
+    "Analyze": {
+      "types": ["Case study", "Bài tập lớn", "Thuyết trình phân tích"],
+      "description": "Đánh giá khả năng phân tích và đánh giá vấn đề"
+    },
+    "Evaluate": {
+      "types": ["Bài tập lớn", "Dự án", "Thuyết trình đánh giá"],
+      "description": "Đánh giá khả năng đánh giá và phán đoán"
+    },
+    "Create": {
+      "types": ["Dự án", "Bài tập lớn", "Thuyết trình sáng tạo"],
+      "description": "Đánh giá khả năng sáng tạo và xây dựng giải pháp mới"
+    }
+  },
+  "rubricTemplates": {
+    "Remember": {
+      "Xuất sắc": "Nhớ chính xác và đầy đủ tất cả các khái niệm, có thể liệt kê chi tiết",
+      "Tốt": "Nhớ được hầu hết các khái niệm chính, có thể liệt kê cơ bản",
+      "Đạt": "Nhớ được các khái niệm cơ bản",
+      "Chưa đạt": "Không nhớ hoặc nhớ sai các khái niệm cơ bản"
+    },
+    "Understand": {
+      "Xuất sắc": "Hiểu sâu sắc và có thể giải thích rõ ràng, có ví dụ minh họa",
+      "Tốt": "Hiểu được khái niệm và có thể giải thích cơ bản",
+      "Đạt": "Hiểu được khái niệm ở mức cơ bản",
+      "Chưa đạt": "Không hiểu hoặc hiểu sai khái niệm"
+    },
+    "Apply": {
+      "Xuất sắc": "Áp dụng thành thạo và sáng tạo trong nhiều tình huống khác nhau",
+      "Tốt": "Áp dụng được trong các tình huống quen thuộc",
+      "Đạt": "Áp dụng được ở mức cơ bản",
+      "Chưa đạt": "Không thể áp dụng kiến thức"
+    },
+    "Analyze": {
+      "Xuất sắc": "Phân tích sâu sắc, có nhiều góc nhìn, phát hiện được các mối liên hệ phức tạp",
+      "Tốt": "Phân tích được các yếu tố chính và mối liên hệ cơ bản",
+      "Đạt": "Phân tích được ở mức cơ bản",
+      "Chưa đạt": "Không thể phân tích hoặc phân tích sai"
+    },
+    "Evaluate": {
+      "Xuất sắc": "Đánh giá toàn diện, có lập luận chặt chẽ và đề xuất giải pháp",
+      "Tốt": "Đánh giá được các khía cạnh chính với lập luận hợp lý",
+      "Đạt": "Đánh giá được ở mức cơ bản",
+      "Chưa đạt": "Không thể đánh giá hoặc đánh giá sai"
+    },
+    "Create": {
+      "Xuất sắc": "Tạo ra sản phẩm độc đáo, sáng tạo, có giá trị thực tiễn cao",
+      "Tốt": "Tạo ra sản phẩm hoàn chỉnh, đáp ứng yêu cầu",
+      "Đạt": "Tạo ra sản phẩm ở mức cơ bản",
+      "Chưa đạt": "Không thể tạo ra sản phẩm hoặc sản phẩm không đạt yêu cầu"
+    }
+  }
+}
+
+
