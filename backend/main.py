@@ -41,6 +41,8 @@ if extra_origins:
         [origin.strip() for origin in extra_origins.split(",") if origin.strip()]
     )
 
+logger.info("CORS allow_origins: %s", default_origins)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=default_origins,
