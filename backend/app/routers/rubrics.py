@@ -86,3 +86,4 @@ async def delete_rubric(
     return {"message": "Đã xóa rubric"}
 
 
+

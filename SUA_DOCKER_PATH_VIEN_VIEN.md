@@ -69,3 +69,4 @@ Nếu hiển thị số phiên bản, Docker đã được cấu hình đúng.
 - Nếu vẫn không hoạt động, thử **khởi động lại máy tính**
 
 
+
