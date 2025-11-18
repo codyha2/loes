@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import logging
+import os
 
 from app.database import engine, init_db
 from app.routers import (
@@ -29,9 +30,20 @@ app = FastAPI(
 )
 
 # CORS
+default_origins = [
+    "http://localhost:3000",
+    "https://localhost:3000",
+    "https://loes-peach.vercel.app",
+]
+extra_origins = os.getenv("FRONTEND_ORIGINS", "")
+if extra_origins:
+    default_origins.extend(
+        [origin.strip() for origin in extra_origins.split(",") if origin.strip()]
+    )
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://localhost:3000"],
+    allow_origins=default_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
