@@ -513,10 +513,13 @@ const CLOPLOMatrix: React.FC<CLOPLOMatrixProps> = ({ courseId }) => {
             <tr>
               <th className="border border-gray-300 p-2 bg-gray-100 text-left">CLO</th>
               {plos.map((plo) => (
-                <th key={plo.id} className="border border-gray-300 p-2 bg-gray-100 text-center min-w-[80px]">
+                <th
+                  key={plo.id}
+                  className="border border-gray-300 px-3 py-2 bg-gray-100 text-center align-top min-w-[140px]"
+                >
                   <div className="font-medium">{plo.code}</div>
-                  <div className="text-xs text-gray-600 font-normal mt-1 max-w-[100px] truncate" title={plo.description}>
-                    {plo.description.substring(0, 30)}...
+                  <div className="text-[11px] text-gray-600 font-normal mt-1 whitespace-normal break-words leading-snug">
+                    {plo.description}
                   </div>
                 </th>
               ))}
